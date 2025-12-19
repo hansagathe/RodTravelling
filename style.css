@@ -42,6 +42,7 @@
 
 
 .banner {
+    width: 100%;
     height: 80vh;
     background-image: url("rodrigues_island.jpg");
     background-size: cover;
@@ -61,11 +62,11 @@
 }
 
 .banner-text h1 {
-    font-size: 36px;
+    font-size: 26px;
 }
 
 .banner-text p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
