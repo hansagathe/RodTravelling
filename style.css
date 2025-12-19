@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #006d77;
+    padding: 15px 30px;
+    color: white;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+
+.search input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.banner {
+    height: 80vh;
+    background-image: url("rodrigues_island.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.banner-text {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.footer {
+    background-color: #006d77;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
