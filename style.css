@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #006d77;
+    background-color: lightblue;
     padding: 15px 30px;
     color: white;
 }
@@ -42,6 +42,7 @@
 
 
 .banner {
+    width: 100%;
     height: 80vh;
     background-image: url("rodrigues_island.jpg");
     background-size: cover;
@@ -55,17 +56,17 @@
     bottom: 50px;
     left: 50px;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
+    background: black;
     padding: 20px;
     border-radius: 8px;
 }
 
 .banner-text h1 {
-    font-size: 36px;
+    font-size: 26px;
 }
 
 .banner-text p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
